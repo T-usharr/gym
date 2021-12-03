@@ -1,0 +1,161 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body {
+    background-image:url("pexels-leon-ardho-1552252.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 1500px;
+   overflow-x: hidden;
+   width: 100% !important;
+
+    
+}
+.navbar{
+    background-color: rgba(121, 126, 125, 0.438);
+    /* position:absolute; */
+    width: 100%;
+    /* border: pink solid 2px; */
+    margin: 0;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(234, 248, 197);
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 15px;
+
+    
+}
+.navbar ul li a:hover{
+    color:rgba(240, 162, 16, 0.877);
+    text-decoration:overline;
+   
+    /* background-color: rgb(201, 212, 209); */
+}
+.navbar li{
+    display: inline;
+    background-color:rgba(235, 16, 16, 0);
+}
+#logo {
+   height: 60px;
+   width: 65px;
+   background-color:rgba(22, 201, 132, 0.637);  
+    border-radius: 300px;
+    animation-name:lo ;
+}
+@keyframes lo {
+    0%{
+        background-color:rgba(22, 201, 132, 0.637);  
+    }
+    50%{
+        background-color: rgb(255, 0, 13);
+    }
+    
+}
+
+
+
+
+
+.container {
+ 
+    /* text-align: center; */
+    padding-top: 150px;
+    color: rgb(255, 240, 240);
+    font-size:20px;
+    width:200px;
+    padding-left: 56px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.container input {
+    width: 200px;
+    padding:11px 16px;
+    margin-top: 5px;
+    background-color:rgba(240, 216, 187, 0.897);
+}
+.btn{
+ 
+    margin-left: 56px;
+    margin-top: 25px;
+    padding:13px 26px ; /* padding:top right down right */
+    background-color: rgb(243, 238, 174);
+   border-radius: 14px;
+    /*  */
+}
+.btn:hover{
+    background-color:rgb(198, 229, 192)
+}
+#he2{
+    font-size: 42px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Quote {
+    position: absolute; /* this will help to remain in positionof texr by not disturbing others */
+    margin-left: 756px;
+    font-size: 79px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* color:rgba(140, 177, 72, 0.877); */
+    /* animation-name: quotee; */
+    animation:pulse 8s infinite;
+}
+@keyframes pulse {
+    0%,80% {
+        color:rgba(213, 245, 31, 0.877);
+    }
+    100%{
+        color:rgb(255, 10, 10);
+    }
+}
+.containfacility{
+    display:block;
+    width:100%;
+    margin-top:150px;
+    text-align: center;
+    /* margin-left: 56px; */
+    /* position:absolute; */
+    color: aliceblue;
+    /* margin:; */
+    font-size:34px;
+    background-color:rgba(207, 166, 166, 0.657);
+    padding:12px;
+    height: 600px;
+}
+.sport{
+    /* padding: 22px; */
+    display:inline-block;
+    height:352px;
+    width:323px;
+
+}
+.sport2{
+    display: inline-block;
+
+    /* border: red solid 1px; */
+    padding: 22px;
+    display:inline-block;
+    height:352px;
+    width:323px;
+}
+h3{
+    margin-top:none;
+    background-color:rgba(0, 0, 0, 0.657);
+    padding: 20px;
+}
+.sport3{
+    background-color:rgba(0, 0, 0, 0.657);
+   
+}
+.textsport{
+    text-align:left;
+    font-size: 23px ;
+    padding: 8px;
+}
